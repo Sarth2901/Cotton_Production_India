@@ -1,0 +1,123 @@
+library(readr)
+df <- read_csv("Data.csv")
+ds <- Data.csv
+view(df)
+dfAvs<-aggregate(df$Year ~ df$Area, FUN=mean)
+colnames(dfAvs)<-c("Mode","irrigation")
+barplot(dfAvs$irrigation,names=dfAvs$Mode)
+barplot(dfAvs$irrigation,names=dfAvs$Mode)
+plot(dfAvs$irrigation,dfAvs$Mode)
+colnames(dfAvs)<-c("Mode","irrigation")
+barplot(dfAvs$irrigation,names=dfAvs$Mode)
+table(df$Year,df$Area)
+
+
+
+library(ggplot2)
+data <- read.csv("Data.csv")
+ggplot(data, aes(x = Area)) +
+  geom_histogram(binwidth = 500, fill = "blue", color = "black") +
+  labs(title = "Histogram of Area", x = "Area", y = "Frequency") +
+  theme_minimal()
+
+
+
+ggplot(data, aes(x = Area)) +
+  geom_histogram(binwidth = 500, fill = "blue", color = "black") +
+  facet_wrap(~ Year, ncol = 5) +
+  labs(title = "Histogram of Area Grouped by Year", x = "Area", y = "Frequency") +
+  theme_minimal()
+
+# Create a histogram for Area
+hist(data$Area, breaks = 20, col = "blue", border = "black",
+     main = "Histogram of Area", xlab = "Area", ylab = "Frequency")
+
+# This will give the statistic and p-value
+
+production_data <- na.omit(data$Production)
+
+
+# Histogram with density curve
+ggplot(data.frame(production_data), aes(x = production_data)) +
+  geom_histogram(aes(y = ..density..), bins = 15, fill = "skyblue", color = "black") +
+  geom_density(color = "red") +
+  labs(title = "Histogram of Production", x = "Production", y = "Density")
+
+
+# Q-Q plot
+qqnorm(production_data, main = "Q-Q Plot of Production")
+qqline(production_data, col = "red")
+
+# Shapiro-Wilk Test
+shapiro_test <- shapiro.test(production_data)
+print(shapiro_test)
+
+# Interpret results
+if (shapiro_test$p.value < 0.05) {
+  print("The Production data is NOT normally distributed (reject H0).")
+} else {
+  print("The Production data is normally distributed (fail to reject H0).")
+}
+
+
+print(production_data)
+
+colnames(data)
+
+
+
+shapiro_test <- shapiro.test(production_data)
+print(shapiro_test)
+
+
+
+
+shapiro_test <- shapiro.test(production_data)
+print(shapiro_test)
+
+# Interpret results
+if (shapiro_test$p.value < 0.05) {
+  print("The Production data is NOT normally distributed (reject H0).")
+} else {
+  print("The Production data is normally distributed (fail to reject H0).")
+}
+
+
+
+
+# Create the plot
+library(ggplot2)
+
+ggplot(data, aes(x = Year, y = Area)) +
+  geom_line(color = "blue") +
+  geom_point() +
+  labs(title = "Area Over Time", x = "Year", y = "Area") +
+  theme_minimal()
+
+# Save the plot as PNG
+ggsave("area_over_time.png", width = 8, height = 6)
+
+# Load necessary library
+library(ggplot2)
+
+# Create the histogram of 'Area' to check for normality
+ggplot(data, aes(x = Area)) +
+  geom_histogram(binwidth = 500, fill = "blue", color = "black", alpha = 0.7) +
+  geom_density(color = "red", size = 1) +  # Add density curve to visually inspect normality
+  labs(title = "Histogram of Area with Density Curve", x = "Area", y = "Frequency") +
+  theme_minimal()
+
+
+
+# Save the histogram as PNG
+ggsave("area_histogram_normality_check.png", width = 8, height = 6)
+
+
+
+# Q-Q plot to check normality visually
+qqnorm(data$Area, main = "Q-Q Plot for Area")
+qqline(data$Area, col = "red")
+
+# Save Q-Q plot as PNG
+dev.copy(png, "qq_plot_area.png")
+dev.off()
