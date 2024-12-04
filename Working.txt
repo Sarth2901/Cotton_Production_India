@@ -1,3 +1,10 @@
-Hello ALl, 
-This is our document in which we will discuss our wroking and problems wrt to our research.
-My name is Sarthak Milind Upasani, 23055005 is my student ID.
+Hello All, 
+This is the document in which we will discuss our work and problems related to our research.
+My name is Sarthak Milind Upasani, and 23055005 is my student ID.
+My name is Ronak Rahul Durge, 23089289 is my student ID.
+My name is Ankit Dilip Barge, and 23077452 is my student ID.
+My name is Kaushal Kamleshbhai Aghera, and 23077589 is my student ID.
+
+Project Overview: - 
+I am working on the Cotton Production India Dataset working on graphing plots and histograms. To visualize the data I have worked on different graphs and created them and working on different graphs to plot which will help to understand key insights.
+
