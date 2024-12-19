@@ -121,3 +121,46 @@ qqline(data$Area, col = "red")
 # Save Q-Q plot as PNG
 dev.copy(png, "qq_plot_area.png")
 dev.off()
+
+
+#Load required libraries
+library(ggplot2)
+
+# Histogram with density curve for 'irrigation'
+ggplot(Data, aes(x = irrigation)) +
+  geom_histogram(aes(y = ..density..), binwidth = 10, fill = "orange", color = "black", alpha = 0.7) +
+  geom_density(color = "red", size = 1) +
+  labs(
+    title = "Histogram with Density Curve for Irrigation",
+    x = "Irrigation",
+    y = "Density"
+  ) +
+  theme_minimal()
+
+# Save the plot as PNG
+ggsave("irrigation_histogram_with_density.png", width = 8, height = 6)
+
+# Check for non-finite values in 'irrigation' 
+non_finite_rows <- data[!is.finite(data$irrigation),] print(non_finite_rows)
+
+
+# Load necessary libraries
+library(ggplot2)
+
+# Load the CSV file (use the correct file path)
+data <- read.csv("Data.csv")
+
+# Extract the Production column
+production_data <- data$Production
+
+# Plot histogram with Normal curve (density estimate)
+ggplot() +
+  geom_histogram(aes(x = production_data, y = ..density..), bins = 10, fill = "blue", alpha = 0.7, color = "black") +
+  geom_density(aes(x = production_data), color = "red", size = 1) +
+  labs(title = "Histogram of Production with Normal Curve",
+       x = "Production",
+       y = "Density") +
+  theme_minimal()
+
+
+
