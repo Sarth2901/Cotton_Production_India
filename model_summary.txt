@@ -1,0 +1,21 @@
+
+Call:
+lm(formula = Production ~ irrigation + Kg.Hectare, data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3719.0  -622.2   120.4   544.1  5610.4 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1568.059    464.126  -3.379 0.001296 ** 
+irrigation   -100.030     26.661  -3.752 0.000403 ***
+Kg.Hectare     70.771      2.483  28.504  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1312 on 59 degrees of freedom
+  (7 observations deleted due to missingness)
+Multiple R-squared:  0.9642,	Adjusted R-squared:  0.963 
+F-statistic: 794.3 on 2 and 59 DF,  p-value: < 2.2e-16
+
