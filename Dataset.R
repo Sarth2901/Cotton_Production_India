@@ -165,6 +165,74 @@ ggplot() +
   theme_minimal()
 
 <<<<<<< HEAD
+#matrix
+colnames(data)
+
+# Install and load corrplot
+install.packages("corrplot")
+library(corrplot)
+
+# Visualize the correlation matrix
+corrplot(cor_matrix, method = "circle")
+
+str(data)
+
+colSums(is.na(data))  # Count missing values per column
+
+# Select columns for correlation
+subset_data <- data[, c("irrigation", "Production", "Kg.Hectare")]
+
+# Calculate the correlation matrix
+cor_matrix <- cor(subset_data, use = "complete.obs")
+
+# Print the correlation matrix
+print(cor_matrix)
+
+# Install and load corrplot if not installed
+install.packages("corrplot")
+library(corrplot)
+
+# Plot the correlation matrix
+corrplot(cor_matrix, method = "circle", title = "Correlation Matrix")
+
+
+#trend analysis
+library(ggplot2)
+ggplot(data, aes(x = Year, y = Production)) +
+  geom_line(color = "blue") +
+  labs(title = "Trend of Production Over Years")
+
+data$RollingAvgProduction <- zoo::rollmean(data$Production, k = 3, fill = NA)
+
+
+
+#Advanced Visualizations
+library(GGally)
+ggpairs(data)
+
+names(data)
+
+
+#Decision Tree
+library(rpart.plot)
+rpart.plot(tree_model)
+
+library(rpart)
+tree_model <- rpart(Production ~ irrigation + Year, data = data)
+rpart.plot(tree_model)
+
+#automated reporting
+library(rmarkdown)
+rmarkdown::render("report.Rmd")
+
+
+model <- lm(Production ~ irrigation + Kg.Hectare, data = data)
+summary(model)
+
+capture.output(summary(model), file = "model_summary.txt")
+
+=======
+<<<<<<< HEAD
 
 
 # Load necessary libraries
@@ -252,3 +320,4 @@ ggplot() +
   theme_minimal()
 =======
 >>>>>>> e099765da895f9e50e543a507062b6452d9b2b66
+>>>>>>> fc5ad098b81221efcd0a8a907d612890dbc23b89
