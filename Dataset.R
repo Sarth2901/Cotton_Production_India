@@ -1,7 +1,7 @@
 library(readr)
 df <- read_csv("Data.csv")
 ds <- Data.csv
-view(df)
+View(df)
 dfAvs<-aggregate(df$Year ~ df$Area, FUN=mean)
 colnames(dfAvs)<-c("Mode","irrigation")
 barplot(dfAvs$irrigation,names=dfAvs$Mode)
@@ -122,6 +122,8 @@ qqline(data$Area, col = "red")
 dev.copy(png, "qq_plot_area.png")
 dev.off()
 
+<<<<<<< HEAD
+=======
 
 #Load required libraries
 library(ggplot2)
@@ -162,6 +164,7 @@ ggplot() +
        y = "Density") +
   theme_minimal()
 
+<<<<<<< HEAD
 
 
 # Load necessary libraries
@@ -247,3 +250,5 @@ ggplot() +
        x = "Production", 
        y = "Density") +
   theme_minimal()
+=======
+>>>>>>> e099765da895f9e50e543a507062b6452d9b2b66
