@@ -121,3 +121,4 @@ qqline(data$Area, col = "red")
 # Save Q-Q plot as PNG
 dev.copy(png, "qq_plot_area.png")
 dev.off()
+
