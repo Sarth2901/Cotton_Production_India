@@ -1,0 +1,274 @@
+commit d4fa7b58a4b596f809d2ec99f76cb6d735afaf41
+Merge: 1dd6ed1 68b1ebf
+Author: Sarthak <su24aaf@herts.ac.uk>
+Date:   Mon Jan 6 17:17:38 2025 +0000
+
+    Reserch Summary
+
+commit 1dd6ed1cb851f2262087ca15ebd6fe74de3e5629
+Author: Sarthak <su24aaf@herts.ac.uk>
+Date:   Mon Jan 6 17:16:17 2025 +0000
+
+    Research Summary
+
+commit 68b1ebf2662ec1fe77e489201d74b3a2fe189172
+Merge: ffdf9dc 5e9c609
+Author: Sahilkumar Chauhan <sc24acu@herts.ac.uk>
+Date:   Mon Jan 6 17:12:11 2025 +0000
+
+    Merge branch 'main' of https://github.com/su24aaf/Cotton_Production_India
+
+commit 5e9c6095bb38b11b1803536e19c9161488b4841e
+Merge: 1c67ae6 59490f3
+Author: Sarthak <su24aaf@herts.ac.uk>
+Date:   Mon Jan 6 17:03:28 2025 +0000
+
+    statictics summary
+
+commit 1c67ae61f6c7f4edad63b4884865d3e7b8cd3580
+Author: Sarthak <su24aaf@herts.ac.uk>
+Date:   Mon Jan 6 17:02:39 2025 +0000
+
+    statictics summary
+
+commit ffdf9dca4f7723012a8a8282e3ed631c04bc6555
+Merge: ecde7cc 59490f3
+Author: Sahilkumar Chauhan <sc24acu@herts.ac.uk>
+Date:   Mon Jan 6 16:58:36 2025 +0000
+
+    Merge branch 'main' of https://github.com/su24aaf/Cotton_Production_India
+
+commit 59490f3838024264fd4ef24de74bbb03d919fbdb
+Author: Ankit Barge <ab24adt@herts.ac.uk>
+Date:   Mon Jan 6 16:55:07 2025 +0000
+
+    Trend of Kg.Hectare Over Time
+
+commit 54ee8d724fd828bfa30600e1841211c805541a68
+Author: Sarthak <su24aaf@herts.ac.uk>
+Date:   Mon Jan 6 16:52:31 2025 +0000
+
+    Pie Chart 2
+
+commit 1f8ece74baf1ee37de9c6fa8d16f15aa6290570c
+Author: Ankit Barge <ab24adt@herts.ac.uk>
+Date:   Mon Jan 6 16:49:39 2025 +0000
+
+    Density Plot Of Irrigation
+
+commit 876c3eb8b9cb39afb98bb539e190c517a312644e
+Merge: 0cd70e8 bf3346b
+Author: Ronak Rahul Durge <rd24aat@herts.ac.uk>
+Date:   Mon Jan 6 16:46:17 2025 +0000
+
+    Trend of Area Over Time
+
+commit 0cd70e8ecef1479d6d5496ad3cc92a2a847d3589
+Merge: 1a24230 33b2995
+Author: Ronak Rahul Durge <rd24aat@herts.ac.uk>
+Date:   Mon Jan 6 16:44:23 2025 +0000
+
+    Trend of Area Over Time
+
+commit bf3346b818f02239e2705720d2275e49a271a6fb
+Author: Sarthak <su24aaf@herts.ac.uk>
+Date:   Mon Jan 6 16:43:17 2025 +0000
+
+    pie chart
+
+commit 72a401d0fcdad1cdfeb2daf6b86f8350d3d1f82e
+Author: Sarthak <su24aaf@herts.ac.uk>
+Date:   Mon Jan 6 16:42:31 2025 +0000
+
+    heatmap
+
+commit 1a242305304f022b86bc1066282b54d135b83342
+Author: Ronak Rahul Durge <rd24aat@herts.ac.uk>
+Date:   Mon Jan 6 16:41:01 2025 +0000
+
+    Trend of Area Over Time
+
+commit ecde7cce8c2be72cf7c11172a1a6336c6e3fc4b5
+Author: Sahilkumar Chauhan <sc24acu@herts.ac.uk>
+Date:   Mon Jan 6 16:40:42 2025 +0000
+
+    log transformed prodcution histogam
+
+commit 33b29959782a22d6e0b4ae24bf4f67589c6b7fa7
+Merge: 94abf5f fc5ad09
+Author: Sarthak <su24aaf@herts.ac.uk>
+Date:   Mon Jan 6 16:40:07 2025 +0000
+
+    missing data analysis
+
+commit 94abf5fbc729f6c29db539a4b856e58e06446b88
+Author: Sarthak <su24aaf@herts.ac.uk>
+Date:   Mon Jan 6 16:39:52 2025 +0000
+
+    missing data analysis
+
+commit fc5ad098b81221efcd0a8a907d612890dbc23b89
+Author: Ronak Rahul Durge <rd24aat@herts.ac.uk>
+Date:   Mon Jan 6 16:39:27 2025 +0000
+
+    Trend of Irrigation Over time
+
+commit f8cbb83a7d2b2a6f950d72f2432ee0ee29ce8579
+Author: Ronak Rahul Durge <rd24aat@herts.ac.uk>
+Date:   Mon Jan 6 16:29:26 2025 +0000
+
+    PCA Graph Uploading
+
+commit 8703c109d082e162695a2846fbe2038d978312a8
+Merge: f788e0d e099765
+Author: Ankit Barge <ab24adt@herts.ac.uk>
+Date:   Mon Jan 6 16:19:08 2025 +0000
+
+    Regression Line
+
+commit f788e0d810cba5d08a0deab0a548250229d15afd
+Author: Ankit Barge <ab24adt@herts.ac.uk>
+Date:   Mon Jan 6 16:18:12 2025 +0000
+
+    Regression Line
+
+commit e099765da895f9e50e543a507062b6452d9b2b66
+Merge: 08e56b7 7b8a783
+Author: Ronak Rahul Durge <rd24aat@herts.ac.uk>
+Date:   Mon Jan 6 16:11:53 2025 +0000
+
+    Production_Plot
+
+commit 08e56b75c749c2d85a603d9810cd5585122e00bc
+Author: Ronak Rahul Durge <rd24aat@herts.ac.uk>
+Date:   Mon Jan 6 15:57:15 2025 +0000
+
+    My message
+
+commit 7b8a78352e62f46fadcc24ac7d2ec2fc94523fb2
+Author: Sahilkumar Chauhan <sc24acu@herts.ac.uk>
+Date:   Mon Jan 6 15:31:19 2025 +0000
+
+    matrix
+
+commit 1560c617204d0418bb3109afba36044e5f50e744
+Author: Sahilkumar Chauhan <sc24acu@herts.ac.uk>
+Date:   Mon Jan 6 15:25:22 2025 +0000
+
+    advance visualizations
+
+commit 8832141b7d384313afb75f09cf15f6dd9bb1f2ba
+Author: Sahilkumar Chauhan <sc24acu@herts.ac.uk>
+Date:   Mon Jan 6 14:38:16 2025 +0000
+
+    Working
+
+commit cbef6e94cc190c245cb9ec4f2a5f906193daa037
+Author: KAUSHAL AGHERA <ka24aap@herts.ac.uk>
+Date:   Wed Jan 1 22:46:03 2025 +0000
+
+    model_summary
+
+commit 1f7e240e2722645497cd820f93826df171736c96
+Author: KAUSHAL AGHERA <ka24aap@herts.ac.uk>
+Date:   Wed Jan 1 22:44:12 2025 +0000
+
+    tree
+
+commit ebd978dc8da48e3422095664862669ab004cd069
+Author: KAUSHAL AGHERA <ka24aap@herts.ac.uk>
+Date:   Wed Jan 1 22:40:51 2025 +0000
+
+    production trend
+
+commit 76f9e828a5638a41eec6b4e047823fc1e8855818
+Author: Sarthak <su24aaf@herts.ac.uk>
+Date:   Wed Jan 1 08:26:40 2025 +0000
+
+    Scatterplot
+
+commit 18ff55d66c547180854e8f558a6392a65e415b23
+Author: Ankit Barge <ab24adt@herts.ac.uk>
+Date:   Thu Dec 19 16:54:12 2024 +0000
+
+    Histogram with correct curve
+
+commit 14758d58495c9b12697a1feee22e471885b5ea39
+Author: Ankit Barge <ab24adt@herts.ac.uk>
+Date:   Thu Dec 19 16:45:13 2024 +0000
+
+    Histogram in correct curve
+
+commit cb3d9d8d02376ff6992545b59b2cf1071abfa08b
+Merge: 7a71b8c 067993a
+Author: Ankit Barge <ab24adt@herts.ac.uk>
+Date:   Thu Dec 19 16:42:47 2024 +0000
+
+    Histogram in correct curve
+
+commit 7a71b8cfefe3e0125984adf91934e44bd56cf5f3
+Author: Ankit Barge <ab24adt@herts.ac.uk>
+Date:   Thu Dec 19 14:58:56 2024 +0000
+
+    Histogram With Correct curve
+
+commit 067993adbd2c4810cd9b99fad11f07b91c0e76a2
+Merge: 6a4aa6f c3575b7
+Author: Sarthak <su24aaf@herts.ac.uk>
+Date:   Wed Dec 4 22:45:06 2024 +0000
+
+    Irrigation wrt time graph
+
+commit 6a4aa6fea7f1f78bbb3ab5a7c1ec9617e7316e49
+Author: Sarthak <su24aaf@herts.ac.uk>
+Date:   Wed Dec 4 22:43:14 2024 +0000
+
+    Irrigation over time graph
+
+commit c3575b75fae41fb63621364a18408f39a85e1f1e
+Author: Ankit Barge <ab24adt@herts.ac.uk>
+Date:   Wed Dec 4 22:31:18 2024 +0000
+
+    Histogram of Irrigation
+
+commit 29a0e94b906d52590d11b386149bd5c010cc5f28
+Author: Ronak Rahul Durge <rd24aat@herts.ac.uk>
+Date:   Mon Dec 2 23:50:16 2024 +0000
+
+    Updated Histogram
+
+commit c17e496677c7aa221d005064ff9e0137abb0b599
+Author: Ronak Rahul Durge <rd24aat@herts.ac.uk>
+Date:   Mon Dec 2 23:48:59 2024 +0000
+
+    Histogram Edit
+
+commit b8e2f5a4adf871443d1a366f91f1ebfddd433b5f
+Author: Ronak Rahul Durge <rd24aat@herts.ac.uk>
+Date:   Mon Dec 2 23:41:49 2024 +0000
+
+    Updated Histogram with Curve
+
+commit 9fbeeea67bc025b3ab31995514b953c1820c350b
+Author: Ronak Rahul Durge <rd24aat@herts.ac.uk>
+Date:   Mon Dec 2 20:21:08 2024 +0000
+
+    My Working
+
+commit acf4a1b70bbed0419bf6a8affc5ecfe1aae386d9
+Author: Ronak Rahul Durge <rd24aat@herts.ac.uk>
+Date:   Mon Dec 2 00:20:43 2024 +0000
+
+    my commit
+
+commit 498d7498a067a1f525a077f6188a313fbec2e7bc
+Author: Sarthak <su24aaf@herts.ac.uk>
+Date:   Sat Nov 30 16:54:49 2024 +0000
+
+    first commit
+
+commit c5b9660e1b0678df5dadf228c437300d629de59d
+Author: su24aaf <su24aaf@herts.ac.uk>
+Date:   Mon Nov 18 18:23:22 2024 +0000
+
+    Add files via upload

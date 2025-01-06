@@ -1,0 +1,8 @@
+"","     Year","     Area","  Production","  Kg.Hectare","  irrigation","   log_area","RollingAvgProduction"," ProductionGroup","Prod_Irrig_Ratio","log_Production"
+"","Min.   :1947  ","Min.   : 4424  ","Min.   : 3044  ","Min.   : 85.0  ","Min.   : 8.20  ","Min.   :8.395  ","Min.   : 3219  ","0-500    : 0  ","Min.   : 121.8  ","Min.   : 8.021  "
+"","1st Qu.:1966  ","1st Qu.: 7558  ","1st Qu.: 5564  ","1st Qu.:122.0  ","1st Qu.:16.40  ","1st Qu.:8.930  ","1st Qu.: 5517  ","500-1000 : 0  ","1st Qu.: 285.5  ","1st Qu.: 8.624  "
+"","Median :1983  ","Median : 7868  ","Median : 7648  ","Median :166.5  ","Median :27.40  ","Median :8.971  ","Median : 7514  ","1000-1500: 0  ","Median : 342.4  ","Median : 8.942  "
+"","Mean   :1983  ","Mean   : 8269  ","Mean   :11613  ","Mean   :213.3  ","Mean   :25.32  ","Mean   :9.005  ","Mean   :11402  ","1500-2000: 0  ","Mean   : 445.0  ","Mean   : 9.105  "
+"","3rd Qu.:2000  ","3rd Qu.: 8729  ","3rd Qu.:12287  ","3rd Qu.:253.2  ","3rd Qu.:34.20  ","3rd Qu.:9.075  ","3rd Qu.:12143  ","2000+    :69  ","3rd Qu.: 445.2  ","3rd Qu.: 9.416  "
+"","Max.   :2017  ","Max.   :12846  ","Max.   :35902  ","Max.   :512.0  ","Max.   :38.80  ","Max.   :9.461  ","Max.   :35107  ",NA,"Max.   :1310.3  ","Max.   :10.489  "
+"",NA,"NA's   :1  ",NA,"NA's   :1  ",NA,"NA's   :1  ","NA's   :2  ",NA,NA,NA
