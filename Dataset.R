@@ -164,3 +164,86 @@ ggplot() +
 
 
 
+# Load necessary libraries
+library(ggplot2)
+
+# Load the CSV file (use the correct file path)
+data <- read.csv("Data.csv")
+
+# Extract the Production column
+production_data <- data$Production
+
+# Plot histogram with Gaussian peak curve (density estimate)
+ggplot() +
+  geom_histogram(aes(x = production_data, y = ..density..), 
+                 bins = 10, 
+                 fill = "blue", 
+                 alpha = 0.7, 
+                 color = "black") +
+  geom_density(aes(x = production_data), 
+               color = "red", 
+               size = 1) +
+  labs(title = "Histogram of Production with Gaussian Peak Curve", 
+       x = "Production", 
+       y = "Density") +
+  theme_minimal()
+
+
+# Load necessary libraries
+library(ggplot2)
+library(minpack.lm)  # For non-linear least squares fitting
+
+# Load the CSV file (use the correct file path)
+data <- read.csv("Data.csv")
+
+# Extract the Production column
+production_data <- data$Production
+
+# Define the Lorentzian function
+lorentzian <- function(x, A, x0, gamma) {
+  A * (gamma^2 / ((x - x0)^2 + gamma^2))
+}
+
+# Get the density estimate
+density_data <- density(production_data)
+
+# Initial estimates for the Lorentzian parameters
+start_params <- list(
+  A = max(density_data$y),  # Peak of the density estimate
+  x0 = mean(production_data, na.rm = TRUE),  # Center of the distribution
+  gamma = sd(production_data, na.rm = TRUE)  # Width of the distribution
+)
+
+# Fit the Lorentzian function to the density estimate using non-linear least squares
+fit <- nlsLM(
+  y ~ lorentzian(x, A, x0, gamma),
+  data = data.frame(x = density_data$x, y = density_data$y),  # Explicitly pass the density data
+  start = start_params
+)
+
+# Extract fitted parameters
+params <- coef(fit)
+A <- params["A"]
+x0 <- params["x0"]
+gamma <- params["gamma"]
+
+# Create Lorentzian curve
+x_vals <- seq(min(production_data, na.rm = TRUE), max(production_data, na.rm = TRUE), length.out = 1000)
+lorentz_curve <- data.frame(
+  x = x_vals,
+  y = lorentzian(x_vals, A, x0, gamma)
+)
+
+# Plot histogram with Lorentzian peak curve
+ggplot() +
+  geom_histogram(aes(x = production_data, y = ..density..), 
+                 bins = 10, 
+                 fill = "blue", 
+                 alpha = 0.7, 
+                 color = "black") +
+  geom_line(data = lorentz_curve, aes(x = x, y = y), 
+            color = "red", size = 1) +
+  labs(title = "Histogram of Production with Normal Curve", 
+       x = "Production", 
+       y = "Density") +
+  theme_minimal()
